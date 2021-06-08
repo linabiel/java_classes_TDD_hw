@@ -1,5 +1,8 @@
 public class Calculator {
 
+    public Calculator(){
+    }
+
     public int add(int num1, int num2) {
         return num1 + num2;
     }
@@ -12,8 +15,8 @@ public class Calculator {
         return  num1 * num2;
     }
 
-    public int divide(int numOne, int numTwo) {
-        return numOne / numTwo;
+    public double divide(int num1, int num2) {
+        return num1 / num2;
     }
 }
 

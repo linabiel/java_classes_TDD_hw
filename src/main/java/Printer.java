@@ -18,9 +18,9 @@ public class Printer {
     public void print (int pages, int copies) {
         int paperLeft = pages * copies;
 
-        if (paper >= paperLeft) {
-            paper -= paperLeft;
-            toner -= paperLeft;
+        if (this.paper >= paperLeft) {
+            this.paper -= paperLeft;
+            this.toner -= paperLeft;
         }
     }
 }
